@@ -38,10 +38,10 @@ static const CGFloat kSpeedFontSize = 22.f;
     // Draw Dock Icon
     [_iconImage drawInRect: kIconBounds fromRect: NSMakeRect(0, 0, [_iconImage size].width, [_iconImage size].height) operation: NSCompositeSourceOver fraction: 1.0];
     
-//    if ([_text isEqualToString:@""] || _text == nil)
-//    {
-//        return;
-//    }
+    if ([_text isEqualToString:@""] || _text == nil)
+    {
+        return;
+    }
     // Drawing Speed Background
     NSColor* speedBackgroundColor = nil;
     speedBackgroundColor = [NSColor colorWithColorSpace: [NSColorSpace sRGBColorSpace] components: kSpeedBackgroundColor count: sizeof(kSpeedBackgroundColor) / sizeof(CGFloat)];;
