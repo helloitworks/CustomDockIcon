@@ -11,6 +11,7 @@
     NSString *_text;
 }
 
+@property (retain) NSImage *iconImage;
 @property (copy) NSString *text;
 
 @end

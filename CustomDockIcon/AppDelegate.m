@@ -13,7 +13,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     _dockView = [[DockIconBadgeView alloc] init];
-    
+    //icon image设置一次就行
+    _dockView.iconImage = [NSImage imageNamed:@"Thunder"];
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateDockIcon) userInfo:nil repeats:YES];
 
 }

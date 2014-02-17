@@ -5,6 +5,7 @@
 #import "DockIconBadgeView.h"
 
 @implementation DockIconBadgeView
+@synthesize iconImage = _iconImage;
 @synthesize text = _text;
 
 //icon
