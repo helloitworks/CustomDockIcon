@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22956BBD18B20CDF00237281 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22956BBC18B20CDF00237281 /* Cocoa.framework */; };
+		22956BC718B20CDF00237281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22956BC518B20CDF00237281 /* InfoPlist.strings */; };
+		22956BC918B20CDF00237281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22956BC818B20CDF00237281 /* main.m */; };
+		22956BCD18B20CDF00237281 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22956BCB18B20CDF00237281 /* Credits.rtf */; };
+		22956BD018B20CDF00237281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22956BCF18B20CDF00237281 /* AppDelegate.m */; };
+		22956BD318B20CDF00237281 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22956BD118B20CDF00237281 /* MainMenu.xib */; };
+		22956BD518B20CDF00237281 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22956BD418B20CDF00237281 /* Images.xcassets */; };
+		22956BDC18B20CDF00237281 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22956BDB18B20CDF00237281 /* XCTest.framework */; };
+		22956BDD18B20CDF00237281 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22956BBC18B20CDF00237281 /* Cocoa.framework */; };
+		22956BE518B20CDF00237281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22956BE318B20CDF00237281 /* InfoPlist.strings */; };
+		22956BE718B20CDF00237281 /* CustomDockIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22956BE618B20CDF00237281 /* CustomDockIconTests.m */; };
+		22956BF318B20D4400237281 /* DockIconBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22956BF118B20D4400237281 /* DockIconBadgeView.m */; };
+		22956BF418B20D4400237281 /* Thunder.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22956BF218B20D4400237281 /* Thunder.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22956BDE18B20CDF00237281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22956BB118B20CDF00237281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22956BB818B20CDF00237281;
+			remoteInfo = CustomDockIcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22956BB918B20CDF00237281 /* CustomDockIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDockIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22956BBC18B20CDF00237281 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22956BBF18B20CDF00237281 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22956BC018B20CDF00237281 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22956BC118B20CDF00237281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22956BC418B20CDF00237281 /* CustomDockIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomDockIcon-Info.plist"; sourceTree = "<group>"; };
+		22956BC618B20CDF00237281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22956BC818B20CDF00237281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22956BCA18B20CDF00237281 /* CustomDockIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomDockIcon-Prefix.pch"; sourceTree = "<group>"; };
+		22956BCC18B20CDF00237281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22956BCE18B20CDF00237281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22956BCF18B20CDF00237281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22956BD218B20CDF00237281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22956BD418B20CDF00237281 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22956BDA18B20CDF00237281 /* CustomDockIconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDockIconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22956BDB18B20CDF00237281 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22956BE218B20CDF00237281 /* CustomDockIconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomDockIconTests-Info.plist"; sourceTree = "<group>"; };
+		22956BE418B20CDF00237281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22956BE618B20CDF00237281 /* CustomDockIconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDockIconTests.m; sourceTree = "<group>"; };
+		22956BF018B20D4400237281 /* DockIconBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockIconBadgeView.h; sourceTree = "<group>"; };
+		22956BF118B20D4400237281 /* DockIconBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockIconBadgeView.m; sourceTree = "<group>"; };
+		22956BF218B20D4400237281 /* Thunder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Thunder.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22956BB618B20CDF00237281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BBD18B20CDF00237281 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22956BD718B20CDF00237281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BDD18B20CDF00237281 /* Cocoa.framework in Frameworks */,
+				22956BDC18B20CDF00237281 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22956BB018B20CDF00237281 = {
+			isa = PBXGroup;
+			children = (
+				22956BC218B20CDF00237281 /* CustomDockIcon */,
+				22956BE018B20CDF00237281 /* CustomDockIconTests */,
+				22956BBB18B20CDF00237281 /* Frameworks */,
+				22956BBA18B20CDF00237281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22956BBA18B20CDF00237281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22956BB918B20CDF00237281 /* CustomDockIcon.app */,
+				22956BDA18B20CDF00237281 /* CustomDockIconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22956BBB18B20CDF00237281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22956BBC18B20CDF00237281 /* Cocoa.framework */,
+				22956BDB18B20CDF00237281 /* XCTest.framework */,
+				22956BBE18B20CDF00237281 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22956BBE18B20CDF00237281 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22956BBF18B20CDF00237281 /* AppKit.framework */,
+				22956BC018B20CDF00237281 /* CoreData.framework */,
+				22956BC118B20CDF00237281 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		22956BC218B20CDF00237281 /* CustomDockIcon */ = {
+			isa = PBXGroup;
+			children = (
+				22956BF018B20D4400237281 /* DockIconBadgeView.h */,
+				22956BF118B20D4400237281 /* DockIconBadgeView.m */,
+				22956BF218B20D4400237281 /* Thunder.icns */,
+				22956BCE18B20CDF00237281 /* AppDelegate.h */,
+				22956BCF18B20CDF00237281 /* AppDelegate.m */,
+				22956BD118B20CDF00237281 /* MainMenu.xib */,
+				22956BD418B20CDF00237281 /* Images.xcassets */,
+				22956BC318B20CDF00237281 /* Supporting Files */,
+			);
+			path = CustomDockIcon;
+			sourceTree = "<group>";
+		};
+		22956BC318B20CDF00237281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22956BC418B20CDF00237281 /* CustomDockIcon-Info.plist */,
+				22956BC518B20CDF00237281 /* InfoPlist.strings */,
+				22956BC818B20CDF00237281 /* main.m */,
+				22956BCA18B20CDF00237281 /* CustomDockIcon-Prefix.pch */,
+				22956BCB18B20CDF00237281 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22956BE018B20CDF00237281 /* CustomDockIconTests */ = {
+			isa = PBXGroup;
+			children = (
+				22956BE618B20CDF00237281 /* CustomDockIconTests.m */,
+				22956BE118B20CDF00237281 /* Supporting Files */,
+			);
+			path = CustomDockIconTests;
+			sourceTree = "<group>";
+		};
+		22956BE118B20CDF00237281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22956BE218B20CDF00237281 /* CustomDockIconTests-Info.plist */,
+				22956BE318B20CDF00237281 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22956BB818B20CDF00237281 /* CustomDockIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22956BEA18B20CDF00237281 /* Build configuration list for PBXNativeTarget "CustomDockIcon" */;
+			buildPhases = (
+				22956BB518B20CDF00237281 /* Sources */,
+				22956BB618B20CDF00237281 /* Frameworks */,
+				22956BB718B20CDF00237281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDockIcon;
+			productName = CustomDockIcon;
+			productReference = 22956BB918B20CDF00237281 /* CustomDockIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22956BD918B20CDF00237281 /* CustomDockIconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22956BED18B20CDF00237281 /* Build configuration list for PBXNativeTarget "CustomDockIconTests" */;
+			buildPhases = (
+				22956BD618B20CDF00237281 /* Sources */,
+				22956BD718B20CDF00237281 /* Frameworks */,
+				22956BD818B20CDF00237281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22956BDF18B20CDF00237281 /* PBXTargetDependency */,
+			);
+			name = CustomDockIconTests;
+			productName = CustomDockIconTests;
+			productReference = 22956BDA18B20CDF00237281 /* CustomDockIconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22956BB118B20CDF00237281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "http://www.helloitworks.com/";
+				TargetAttributes = {
+					22956BD918B20CDF00237281 = {
+						TestTargetID = 22956BB818B20CDF00237281;
+					};
+				};
+			};
+			buildConfigurationList = 22956BB418B20CDF00237281 /* Build configuration list for PBXProject "CustomDockIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22956BB018B20CDF00237281;
+			productRefGroup = 22956BBA18B20CDF00237281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22956BB818B20CDF00237281 /* CustomDockIcon */,
+				22956BD918B20CDF00237281 /* CustomDockIconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22956BB718B20CDF00237281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BC718B20CDF00237281 /* InfoPlist.strings in Resources */,
+				22956BD518B20CDF00237281 /* Images.xcassets in Resources */,
+				22956BCD18B20CDF00237281 /* Credits.rtf in Resources */,
+				22956BD318B20CDF00237281 /* MainMenu.xib in Resources */,
+				22956BF418B20D4400237281 /* Thunder.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22956BD818B20CDF00237281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BE518B20CDF00237281 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22956BB518B20CDF00237281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BD018B20CDF00237281 /* AppDelegate.m in Sources */,
+				22956BC918B20CDF00237281 /* main.m in Sources */,
+				22956BF318B20D4400237281 /* DockIconBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22956BD618B20CDF00237281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22956BE718B20CDF00237281 /* CustomDockIconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22956BDF18B20CDF00237281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22956BB818B20CDF00237281 /* CustomDockIcon */;
+			targetProxy = 22956BDE18B20CDF00237281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22956BC518B20CDF00237281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22956BC618B20CDF00237281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22956BCB18B20CDF00237281 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22956BCC18B20CDF00237281 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22956BD118B20CDF00237281 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22956BD218B20CDF00237281 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		22956BE318B20CDF00237281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22956BE418B20CDF00237281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22956BE818B20CDF00237281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22956BE918B20CDF00237281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22956BEB18B20CDF00237281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomDockIcon/CustomDockIcon-Prefix.pch";
+				INFOPLIST_FILE = "CustomDockIcon/CustomDockIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22956BEC18B20CDF00237281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomDockIcon/CustomDockIcon-Prefix.pch";
+				INFOPLIST_FILE = "CustomDockIcon/CustomDockIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22956BEE18B20CDF00237281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomDockIcon.app/Contents/MacOS/CustomDockIcon";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomDockIcon/CustomDockIcon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomDockIconTests/CustomDockIconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22956BEF18B20CDF00237281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomDockIcon.app/Contents/MacOS/CustomDockIcon";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomDockIcon/CustomDockIcon-Prefix.pch";
+				INFOPLIST_FILE = "CustomDockIconTests/CustomDockIconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22956BB418B20CDF00237281 /* Build configuration list for PBXProject "CustomDockIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22956BE818B20CDF00237281 /* Debug */,
+				22956BE918B20CDF00237281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22956BEA18B20CDF00237281 /* Build configuration list for PBXNativeTarget "CustomDockIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22956BEB18B20CDF00237281 /* Debug */,
+				22956BEC18B20CDF00237281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22956BED18B20CDF00237281 /* Build configuration list for PBXNativeTarget "CustomDockIconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22956BEE18B20CDF00237281 /* Debug */,
+				22956BEF18B20CDF00237281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22956BB118B20CDF00237281 /* Project object */;
+}
